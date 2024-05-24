@@ -29,6 +29,7 @@
   "scripts": {
     "dev": "react-scripts start GENERATE_SOURCEMAP=false",
     "build": "react-scripts build",
+    "deploy": "BUILD_PATH='./docs' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
