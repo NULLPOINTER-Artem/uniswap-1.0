@@ -17,7 +17,7 @@ export function getConnectorName(connector: Connector): string {
   }
 }
 
-export const connectors = [metaMask, walletConnect]
+export const connectors = [metaMask]
 
 export function useActiveProvider(): Web3Provider | undefined {
   return getPriorityConnector(...connectors).usePriorityProvider() as Web3Provider
